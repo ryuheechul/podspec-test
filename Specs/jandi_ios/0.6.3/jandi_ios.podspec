@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.module_name = 'jandi_ios'
 
   s.exclude_files = "Pods/**/*"
+  s.vendored_frameworks = 'KakaoOpenSDK.framework'
 
   s.dependency 'UALogger', '~> 0.3'
   s.dependency 'AFNetworking', '2.6.0'
