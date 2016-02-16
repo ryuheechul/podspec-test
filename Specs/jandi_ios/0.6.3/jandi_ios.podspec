@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary	= "new jandi ios client"
   s.homepage	= "https://github.com/tosslab/jandi_ios"
   s.license	= "private"
-  s.author	= { "Heechul" => "heechul.ryu@tosslab.com" |
+  s.author	= { "Heechul" => "heechul.ryu@tosslab.com" }
   s.source 	= { :git => "https://github.com/tosslab/jandi_ios.git", :tag => "v0.6.3" }
   s.social_media_url = 'https://github.com/tosslab/jandi_ios'
   
