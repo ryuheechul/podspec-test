@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   
   s.platform	= :ios, '7.0'
   s.requires_arc = true
-  s.source_files = "**/*"
+  s.source_files = "**/*.{h,m,mm}"
   s.framework = 'UIKit', 'CoreText'
   s.library = 'c++'
   s.module_name = 'jandi_ios'
