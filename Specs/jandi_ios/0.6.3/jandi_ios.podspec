@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '2.6.0'
   s.dependency 'AFNetworkActivityLogger', '~> 2.0'
   s.dependency 'FDKeychain', '~> 1.2'
-  s.dependency 'Realm', '0.98.0'
+  s.dependency 'Realm', '0.97.0'
   s.dependency 'SDWebImage', '~>3.7'
   s.dependency 'ComponentKit', '~> 0.13'
   s.dependency 'SimulatorRemoteNotifications', '~> 0.0.3'
