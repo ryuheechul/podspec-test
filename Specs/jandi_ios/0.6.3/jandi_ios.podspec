@@ -12,13 +12,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = "**/*.{h,m,mm}"
   s.framework = 'UIKit', 'CoreText'
-  s.library = 'c++'
   s.module_name = 'jandi_ios'
 
-  s.xcconfig = {
-    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
-    'CLANG_CXX_LIBRARY' => 'libc++',
-  }
+  s.exclude_files = "Pods/**/*"
 
   s.dependency 'UALogger', '~> 0.3'
   s.dependency 'AFNetworking', '2.6.0'
