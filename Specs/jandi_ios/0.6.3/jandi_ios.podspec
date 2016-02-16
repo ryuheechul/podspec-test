@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source 	= { :git => "https://github.com/tosslab/jandi_ios.git", :tag => "v0.6.3" }
   s.social_media_url = 'https://github.com/tosslab/jandi_ios'
   
-  s.platform	= :ios, '7.0'
+  s.platform	= :ios, '8.0'
   s.requires_arc = true
   s.source_files = "**/*.{h,m,mm}"
   s.framework = 'UIKit', 'CoreText'
