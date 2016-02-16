@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   s.exclude_files = "Pods/**/*", "TSLFolderTest.m"
   s.vendored_frameworks = 'KakaoOpenSDK.framework'
 
+  s.vendored_libraries = 'libWeChatSDK.a'
+
   s.dependency 'UALogger', '~> 0.3'
   s.dependency 'AFNetworking', '2.6.0'
   s.dependency 'AFNetworkActivityLogger', '~> 2.0'
