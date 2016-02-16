@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.framework = 'UIKit', 'CoreText'
   s.module_name = 'jandi_ios'
 
-  s.exclude_files = "Pods/**/*"
+  s.exclude_files = "Pods/**/*", "TSLFolderTest.m"
   s.vendored_frameworks = 'KakaoOpenSDK.framework'
 
   s.dependency 'UALogger', '~> 0.3'
