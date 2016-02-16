@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.platform	= :ios, '8.0'
   s.requires_arc = true
   s.source_files = "*.{h,m,mm}", "Modeling/*.{h,m,mm}"
+  s.resources = ["Settings.plist", "Images.xcassets/**/*"]
   s.framework = 'UIKit', 'CoreText'
   s.module_name = 'jandi_ios'
 
