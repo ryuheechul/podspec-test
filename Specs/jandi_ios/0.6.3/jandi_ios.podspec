@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.module_name = 'jandi_ios'
 
   s.dependency 'UALogger', '~> 0.3'
-  s.dependency 'AFNetworking', '2.4.0'
+  s.dependency 'AFNetworking', '2.6.0'
   s.dependency 'AFNetworkActivityLogger', '~> 2.0'
   s.dependency 'FDKeychain', '~> 1.2'
   s.dependency 'Realm'
