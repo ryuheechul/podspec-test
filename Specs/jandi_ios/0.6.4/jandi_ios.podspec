@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.framework = 'UIKit', 'CoreText'
   s.module_name = 'jandi_ios'
 
-  s.exclude_files = "Pods/**/*", "TSLFolderTest.m"
+  s.exclude_files = "Pods/**/*", "TSLFolderTest.m", "AppDelegate.{h,m}"
   s.vendored_frameworks = 'KakaoOpenSDK.framework'
 
   s.vendored_libraries = 'libWeChatSDK.a'
