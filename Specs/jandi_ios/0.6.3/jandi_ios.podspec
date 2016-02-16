@@ -15,6 +15,11 @@ Pod::Spec.new do |s|
   s.library = 'c++'
   s.module_name = 'jandi_ios'
 
+  s.xcconfig = {
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+    'CLANG_CXX_LIBRARY' => 'libc++',
+  }
+
   s.dependency 'UALogger', '~> 0.3'
   s.dependency 'AFNetworking', '2.6.0'
   s.dependency 'AFNetworkActivityLogger', '~> 2.0'
